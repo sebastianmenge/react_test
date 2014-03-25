@@ -32,8 +32,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'react-rails'
-# gem 'react-rails', '~> 1.0.0'
+gem 'gon', '~> 5.0.4'
+
+# gem 'react-rails'
+gem 'react-rails', '~> 0.9.0.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

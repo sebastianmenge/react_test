@@ -16,4 +16,11 @@
 //= require underscore
 //= require backbone
 //= require react
-//= require_tree .
+//= require react.backbone
+//= require_tree ./models
+//= require app
+//= require posts
+
+$(document).ready(function() {
+  App.start();
+});
